@@ -1,0 +1,602 @@
+Exercício_CSS:
+
+Seletores CSS
+
+1ª Defina a cor do texto como vermelho para todos os elementos <p>.
+
+<style>
+P
+ {
+  
+color:
+ red;
+}
+</style>
+
+2º Defina a cor do texto como vermelho para o elemento com id="para1".
+
+<style>
+#para1
+ {
+  
+color:
+ red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p id="para1">This is a paragraph</p>
+</body>
+
+3ª Defina a cor do texto como vermelho para elementos com class="colortext".
+
+<style>
+.colortext
+ {
+  
+color:
+ red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p class="colortext">This is a paragraph</p>
+  <p class="colortext">This is a paragraph</p>
+</body>
+
+4ª Defina a cor do texto como vermelho, para todos os elementos <p> e <h1>. Agrupe os seletores para minimizar o código.
+
+<style>
+h1, p
+ {
+  
+color:
+ red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <h2>This is a smaller heading</h2>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+CSS Como:
+
+1ª Adicione uma folha de estilo externa com a URL: "mystyle.css".
+<head>
+<link rel="stylesheet" href="mystyle.css">
+
+</head>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2ª Defina a cor de fundo da página como vermelho.
+
+<style>
+body
+ {
+  
+background-color:
+ red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+3ª Defina a cor de fundo da página como vermelha usando um estilo embutido.
+
+<body 
+tyle=
+="background-color: red">
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+4ª Insira as partes que faltam para deixar o código CSS correto.
+
+<style>
+p 
+=
+  color
+l
+ red;
+:
+</style>
+
+Contexto CSS
+
+1ª Defina a cor de fundo do elemento <h1> como "azul claro".
+
+style>
+h1 {
+  
+background-color
+: lightblue;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2ª Defina "paper.gif" como a imagem de fundo da página.
+
+<style>
+body {
+  
+cal-align: inher
+: 
+;"><font style="
+;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+3ª Faça com que a imagem de fundo se repita apenas verticalmente.
+
+<style>
+body {
+  background-image: url("img_tree.png");
+  
+background-repeat
+: 
+repeat-y
+;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+4ª Especifique que a imagem de fundo deve ser exibida uma vez, no canto superior direito.
+
+<style>
+body {
+  background-image: url("img_tree.png");
+  
+background-repeat
+: 
+no-repeat
+;
+  
+background-position
+: 
+top right
+;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+5ª Use a propriedade de fundo correta para fazer com que a imagem de fundo NÃO role com o resto da página.
+
+<style>
+body {
+  background-image: url("img_tree.png");
+  
+background-attachment
+: 
+fixed
+;
+}
+</style>
+
+Borda CSS
+
+1ª Use a propriedade abreviada border para definir uma borda "4px", "pontilhada" e "vermelha" para os elementos <p>.
+
+<style>
+p {
+  
+border
+: 
+4px dotted red
+;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2º Use a propriedade de borda correta para definir a cor da borda como "vermelho".
+
+<style>
+p {
+  border-style: dotted;
+  border-width: 4px;
+  
+border-color
+: red;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+3ª Use a propriedade de borda correta para definir a borda ESQUERDA como "pontilhada".
+
+<style>
+p {
+  
+border-left-style
+: dotted;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+4ª Use a propriedade border correta para adicionar bordas ARREDONDADAS aos elementos <p>.
+
+<style>
+p {
+  border: 2px solid red;
+  
+border-radius
+: 5px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+Margem CSS
+
+1ª Adicione uma margem esquerda de 20 pixels ao elemento <h1>.
+
+<style>
+h1 {
+  
+margin-left
+: 20px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2ª Use a propriedade de margem abreviada para adicionar 20 pixels nas margens superior e inferior e 40 pixels nas margens esquerda e direita no elemento <h1>.
+
+<style>
+h1 {
+  margin: 
+20px 40px
+;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>	
+
+3ª Para o elemento <h1>, use a propriedade de margem abreviada para adicionar estas margens:
+esquerda: 10px
+direita: 15px
+superior: 20px
+inferior: 25px
+
+<style>
+h1 {
+margin: 20px 15px 25px 10px;
+}
+</style>
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+</body>
+
+4ª Use a marginpropriedade para centralizar o elemento <h1>.
+
+<style>
+h1 {
+  margin: 
+auto
+;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+Preechimento CSS
+
+1ª Defina o preenchimento superior do elemento <h1> como 30 pixels.
+
+<style>
+h1 {
+  
+tical-align
+: 30px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2ª Defina o preenchimento de todos os lados do elemento <h1> para 30 pixels.
+
+<style>
+h1 {
+  
+tical-a
+: 30px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+3º Use a propriedade padding abreviada para adicionar 10 pixels de preenchimento à esquerda e à direita e 40 pixels de preenchimento superior e inferior no elemento <h1>.
+
+<style>
+h1 {
+  padding: 
+gn
+px 
+nh
+px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+Altura/Largura CSS
+
+1ª Defina a altura do elemento <h1> como "100px".
+
+<style>
+h1 {
+  
+height
+: 100px;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+2ª Defina a largura do elemento <h1> como "50%".
+<style>
+h1 {
+  
+width
+: 50%;
+}
+</style>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
+</body>
+
+Modelo de caixa CSS
+
+1ª Defina a largura do elemento <div> como "200px".
+
+<style>
+div
+ {
+  
+width
+: 
+200px
+;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+2ª Adicione uma borda vermelha sólida de 2px ao elemento <div>.
+
+<style>
+div
+ {
+  width: 200px;
+  
+border
+: 2px solid red;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+ 
+3ª Adicione 25 pixels de espaço entre a borda do elemento <div> e seu conteúdo.
+
+<style>
+div {
+  width: 200px;
+  border: 2px solid red;  
+  
+padding
+: 25px;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+4ª Adicione um espaço de 25 pixels fora, à esquerda do elemento <div>.
+
+<style>
+div {
+  width: 200px;
+  border: 2px solid red;  
+  padding: 25px;
+  
+margin-left
+: 25px;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+ESBOÇO CSS
+
+1ª Defina uma borda de contorno sólida de 5px para o elemento <div>.
+
+<style>
+div {
+  
+outline-style
+: solid;
+  
+outline-width
+: 5px;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+2ª Defina a cor da borda do contorno como vermelho.
+
+<style>
+div {
+  outline-style: solid;
+  outline-width: 5px;
+  
+outline-color
+: red;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+
+3ª Use a propriedade abreviada outline para definir uma borda de contorno "4px", "pontilhada" e "vermelha" para o elemento <div>.
+
+<style>
+div {
+  
+outline
+: 
+4px dotted red
+;
+}
+</style>
+
+<body>
+
+<div>
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+</div>
+
+</body>
+	 	
